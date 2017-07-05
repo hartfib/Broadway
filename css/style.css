@@ -8,10 +8,9 @@ h1, h2, h3{
 }
 
 .hero{
-	background-image: url('../images/building.png');
+	background-image: url("../images/building.png");
 	text-align: center;
 	color: white;
-
 }
 	
 .hero h1{
@@ -23,12 +22,17 @@ h1, h2, h3{
 	font-style: 23px;
 }
 
-a.btn-nav{
+.btn-nav{
 	font-size: 18px;
 	font-weight: bold;
 	color: white;
+	/*display: block;
+	line-height: 1.75em; */
+}
+
+.hero a.btn-nav{
 	display: block;
-	line-height: 2.0em;
+	line-height: 1.75em;
 }
 
 footer{
@@ -36,3 +40,14 @@ footer{
 	font-size: 11px;
 	color: white;
 }
+
+footer a.btn-nav{
+	display: inline;
+}
+
+/*.footer a.btn-nav{
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	display: inline;
+}*/
